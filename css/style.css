@@ -320,6 +320,7 @@ body._lock {
 .header__menu-arrow.rotate {
   transform: rotate(180deg);
   transition: 0.5s;
+  top: 5px;
 }
 .header__btns {
   display: flex;
@@ -1187,7 +1188,8 @@ body._lock {
   margin: 0 auto;
 }
 .teams__btn {
-  margin-top: 75px;
+  margin-top: 35px;
+  padding-right: 42px;
   text-align: center;
 }
 .teams__btn button {
@@ -1225,20 +1227,32 @@ body._lock {
   display: none;
 }
 
-.parnters {
-  margin-top: 58px;
+.partners__wrapper {
+  margin-top: 65px;
   padding-left: 16px;
-  height: 110px;
-}
-.parnters__row {
   display: flex;
   align-items: center;
 }
-.parnters__item {
-  margin-right: 56px;
+.partners__slide {
+  width: 120px !important;
 }
-.parnters__item:last-child {
-  margin: 0;
+.partners__slide:nth-child(2) {
+  width: 203px !important;
+}
+.partners__slide:nth-child(3) {
+  width: 251px !important;
+}
+.partners__slide:nth-child(4) {
+  width: 262px !important;
+}
+.partners__slide:nth-child(5) {
+  width: 237px !important;
+}
+.partners__slide:nth-child(6) {
+  width: 164px !important;
+}
+.partners__slide:nth-child(7) {
+  width: 251px !important;
 }
 
 .faq {
@@ -1791,6 +1805,7 @@ body._lock {
   }
   .follow {
     margin-top: 80px;
+    margin-bottom: 150px;
   }
   .follow__title {
     font-size: 48px;
@@ -2295,6 +2310,9 @@ body._lock {
     width: 19px;
     height: 19px;
   }
+  .follow {
+    margin-bottom: 100px;
+  }
   .follow__title {
     font-size: 36px;
     line-height: 47px;
@@ -2346,6 +2364,11 @@ body._lock {
   }
   .finity__coin img {
     width: 100%;
+  }
+  .parnter {
+    margin-top: 20px;
+    display: block;
+    height: 84px;
   }
   .idea__title {
     font-size: 30px;
@@ -2641,28 +2664,39 @@ body._lock {
   .trade__product {
     display: none;
   }
-  .teams__bg-left, .teams__bg-right {
-    display: none;
-  }
   .teams__content {
-    padding: 0 30px;
+    padding: 0px;
   }
-  .teams__title {
-    font-size: 30px;
-    line-height: 39px;
+  .teams__swiper {
+    margin: 0 37px;
   }
   .teams__slide {
-    width: 160px !important;
+    width: 130px !important;
   }
   .teams__item {
-    max-width: 160px;
+    max-width: 130px;
     width: 100%;
-    height: 291px;
+    height: 198px;
   }
   .teams__name {
     font-size: 12px;
     line-height: 15px;
     margin: 10px 0 5px 0;
+  }
+  .teams__position {
+    font-size: 9px;
+    line-height: 11px;
+    margin-bottom: 10px;
+  }
+  .teams__txt {
+    font-size: 8px;
+  }
+  .teams__messenger {
+    width: 85px;
+  }
+  .teams__img {
+    width: 12px;
+    height: 12px;
   }
   .teams__button-prev {
     top: 47%;
@@ -2678,6 +2712,10 @@ body._lock {
   }
   .parnters {
     display: none;
+  }
+  .parnters__wrapper {
+    display: flex;
+    align-items: center;
   }
   .faq__title {
     font-size: 36px;
@@ -2713,6 +2751,9 @@ body._lock {
     font-size: 12px;
     line-height: 15px;
     padding: 0 0 0px 0;
+  }
+  .follow {
+    margin-bottom: 100px;
   }
   .follow__title {
     font-size: 30px;
@@ -2763,18 +2804,6 @@ body._lock {
   }
   .finity__coin img {
     width: 100%;
-    height: 100%;
-  }
-  .parnter {
-    margin-top: 20px;
-    display: block;
-    height: 84px;
-  }
-  .parnter__row {
-    display: flex;
-    align-items: center;
-  }
-  .parnter__icon {
     height: 100%;
   }
   .idea {
@@ -3444,7 +3473,7 @@ body._lock {
 .token__bg {
   position: absolute;
   right: 0;
-  top: -30px;
+  bottom: -300px;
 }
 .token__content {
   padding: 126px 0 0 0px;
@@ -4767,6 +4796,7 @@ body._lock {
 .card__wrapper {
   display: flex;
   justify-content: space-between;
+  height: 340px;
 }
 .card__item {
   text-align: center;
@@ -4835,6 +4865,8 @@ body._lock {
 }
 .timeline__mobile {
   display: none;
+  position: relative;
+  z-index: 8;
 }
 .timeline__top {
   display: flex;
