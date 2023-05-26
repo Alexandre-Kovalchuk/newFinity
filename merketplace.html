@@ -46,27 +46,35 @@
       </div>
    </div>
 </header>
+      <main class="main">
          <section class="coming">
             <div class="coming__bg">
                <div class="coming__left">
-                  <img class="coming__left-desk" src="img/marketplace/circleLeft.png">
-                  <img class="coming__left-mobile" src="img/marketplace/circleLeftMobile.png">
+                  <picture>
+                     <source media="(max-width:992px)" srcset="img/marketplace/circleLeftMobile.png">
+                     <img src="img/marketplace/circleLeft.png" alt="bg-circle-green" style="width:auto;">
+                  </picture>
                </div>
                <div class="coming__right">
-                  <img class="coming__right-desk" src="img/marketplace/circleRight.png">
-                  <img class="coming__right-mobile" src="img/marketplace/circleRightMobile.png">
+                  <picture>
+                     <source media="(max-width:992px)" srcset="img/marketplace/circleRightMobile.png">
+                     <img src="img/marketplace/circleRight.png" alt="bg-circle-green" style="width:auto;">
+                  </picture>
+               
                </div>
             </div>
-   
             <div class="coming__container">
-               <h2 class="coming__title">COMING SOON</h2>
+               <div class="coming__content">
+                  <h2 class="coming__title">COMING SOON</h2>
+               </div>
             </div>
          </section>
+      </main>
    </div>
-      <!-- Swiper-->
-      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-      <!-- Script -->
-      <script src="js/app.min.js"></script> 
+   <!-- Swiper-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <!-- Script -->
+   <script src="js/app.min.js"></script>
 </body>
 
 </html>
