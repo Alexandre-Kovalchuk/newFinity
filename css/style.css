@@ -1285,6 +1285,7 @@ body._lock {
 }
 .partners__slide:nth-child(7) {
   width: 251px !important;
+  margin-right: 20px;
 }
 
 .faq {
