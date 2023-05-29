@@ -1333,6 +1333,7 @@ body._lock {
   border: 1px solid transparent;
   margin-bottom: 30px;
   padding-bottom: 10px;
+  cursor: pointer;
 }
 .faq__accardion-column:last-child {
   margin: 0;
@@ -1342,6 +1343,7 @@ body._lock {
   font-size: 28px;
   line-height: 34px;
   margin: 30px 0 20px 20px;
+  cursor: auto;
 }
 .faq__accardion-close {
   position: absolute;
@@ -5087,6 +5089,7 @@ body._lock {
   margin-bottom: 30px;
   padding-bottom: 10px;
   border-radius: 10px;
+  cursor: pointer;
 }
 .question__accordion-column:last-child {
   margin: 0;
@@ -5096,6 +5099,7 @@ body._lock {
   font-size: 28px;
   line-height: 34px;
   margin: 30px 0 20px 20px;
+  cursor: auto;
 }
 .question__accordion-close {
   position: absolute;
