@@ -750,7 +750,6 @@ body._lock {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 .idea__swiper {
   margin-top: 40px;
@@ -1378,7 +1377,6 @@ body._lock {
   right: 27px;
   transform: rotate(-45deg);
   transition: all 0.5s;
-  cursor: pointer;
 }
 .faq__accardion-text {
   margin-left: 10px;
@@ -1394,6 +1392,10 @@ body._lock {
   height: 0;
   padding: 0;
   overflow: hidden;
+}
+
+.rotate {
+  transform: rotate(-90deg);
 }
 
 .follow {
@@ -5103,14 +5105,13 @@ body._lock {
   font-size: 28px;
   line-height: 34px;
   margin: 30px 0 20px 20px;
-  cursor: auto;
 }
 .question__accordion-close {
   position: absolute;
   top: 37px;
   right: 27px;
   transform: rotate(-45deg);
-  cursor: pointer;
+  transition: all 0.5s;
 }
 .question__accordion-text {
   margin-left: 10px;
@@ -5124,7 +5125,7 @@ body._lock {
 
 .rotate {
   transform: rotate(-90deg);
-  transition: 0.5s;
+  transition: all 0.5s;
 }
 
 .hide {
