@@ -760,7 +760,8 @@ body._lock {
   justify-content: space-between;
 }
 .idea__slide {
-  width: 350px;
+  max-width: 100%;
+  width: 100%;
 }
 .idea__item {
   text-align: center;
@@ -3574,15 +3575,19 @@ body._lock {
   margin-top: 0px;
 }
 .token-card__swiper {
+  max-width: 1520px;
+  width: 100%;
   overflow: visible;
   margin: 0 auto;
 }
 .token-card__wrapper {
+  max-width: 1520px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .token-card__slide {
-  width: 480px !important;
+  width: 480px;
 }
 .token-card__item {
   box-shadow: 2px 2px 9px #91009d;
@@ -4853,9 +4858,11 @@ body._lock {
   margin-top: 173px;
 }
 .card__slide {
-  width: 480px !important;
+  width: 480px;
 }
 .card__wrapper {
+  max-width: 1520px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   height: 340px;
