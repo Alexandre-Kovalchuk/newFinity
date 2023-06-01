@@ -188,14 +188,11 @@ body {
   font-family: Montserrat;
   background-color: #000;
   color: #fff;
+  overflow-y: scroll;
 }
 
 body._lock {
   overflow: hidden;
-}
-
-html {
-  overflow-y: scroll;
 }
 
 [class*=__container] {
