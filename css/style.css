@@ -194,6 +194,10 @@ body._lock {
   overflow: hidden;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 [class*=__container] {
   max-width: 1550px;
   padding: 0 15px;
@@ -208,6 +212,10 @@ body._lock {
   min-height: 100%;
   max-width: 100%;
   margin: 0 auto;
+}
+
+.wrapper._lock {
+  overflow: hidden;
 }
 
 .main {
@@ -491,17 +499,17 @@ body._lock {
     padding: 100px 0 0 39px;
     background-color: #000;
     transition: right 0.3s ease 0s;
-    overflow: hidden;
+    overflow: auto;
   }
   .header__menu-body._active {
-    right: 0;
+    right: 0px;
   }
   .header__menu-body::before {
     content: "";
     position: fixed;
     width: 100%;
     top: 0;
-    right: 0;
+    right: 0px;
     z-index: 30;
   }
   .header__menu-link {
